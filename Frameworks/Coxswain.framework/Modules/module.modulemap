@@ -1,0 +1,11 @@
+framework module Coxswain {
+  umbrella header "Coxswain.h"
+
+  export *
+  module * { export * }
+}
+
+module Coxswain.Swift {
+    header "Coxswain-Swift.h"
+    requires objc
+}
