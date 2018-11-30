@@ -13,6 +13,7 @@
 		0167B927219CBC6200CC277F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0167B926219CBC6200CC277F /* Assets.xcassets */; };
 		0167B92A219CBC6200CC277F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0167B928219CBC6200CC277F /* LaunchScreen.storyboard */; };
 		0167B933219CBEB700CC277F /* Coxswain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0167B932219CBEB700CC277F /* Coxswain.framework */; };
+		01B89B6821A2FA0A00D1A560 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B89B6721A2FA0A00D1A560 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		0167B92B219CBC6200CC277F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0167B932219CBEB700CC277F /* Coxswain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Coxswain.framework; sourceTree = "<group>"; };
 		01B89B6521A2FA0A00D1A560 /* The Shell-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The Shell-Bridging-Header.h"; sourceTree = "<group>"; };
+		01B89B6621A2FA0A00D1A560 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		01B89B6721A2FA0A00D1A560 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				0167B926219CBC6200CC277F /* Assets.xcassets */,
 				0167B928219CBC6200CC277F /* LaunchScreen.storyboard */,
 				0167B92B219CBC6200CC277F /* Info.plist */,
+				01B89B6621A2FA0A00D1A560 /* DetailViewController.h */,
+				01B89B6721A2FA0A00D1A560 /* DetailViewController.m */,
 				01B89B6521A2FA0A00D1A560 /* The Shell-Bridging-Header.h */,
 			);
 			path = "The Shell";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B89B6821A2FA0A00D1A560 /* DetailViewController.m in Sources */,
 				0167B922219CBC6100CC277F /* ViewController.swift in Sources */,
 				0167B920219CBC6100CC277F /* AppDelegate.swift in Sources */,
 			);
